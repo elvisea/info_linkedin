@@ -30,3 +30,9 @@ Thumbs.db
 dist/
 build/
 coverage/
+
+# LinkedIn export (PII) — ver docs/linkedin-export-action-plan.md
+linkedin-export-*.zip
+
+# Pastas temporárias para extrair o export
+tmp/
