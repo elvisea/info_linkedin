@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# npm
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / local
+*.swp
+*~
+.idea/
+
+# Logs and caches
+*.log
+.cache/
+
+# Optional build outputs (future tooling)
+dist/
+build/
+coverage/

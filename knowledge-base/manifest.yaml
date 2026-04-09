@@ -1,0 +1,230 @@
+# Catálogo de entidades do backup de perfil (caminhos relativos à pasta knowledge-base/).
+# Uso: MCP, scripts, busca estruturada.
+version: 1
+updated: '2026-04-09'
+
+entities:
+  # --- profile (singletons) ---
+  - id: identity
+    type: profile
+    title: Informações básicas
+    path: profile/identity.md
+    locales: [pt-BR]
+
+  - id: about
+    type: profile
+    title: Sobre
+    path: profile/about.md
+    locales: [pt-BR, en-US]
+
+  - id: job-preferences
+    type: profile
+    title: Preferências de vaga
+    path: profile/job-preferences.md
+    locales: [pt-BR]
+
+  - id: services
+    type: profile
+    title: Serviços
+    path: profile/services.md
+    locales: [pt-BR]
+
+  - id: skills-highlight
+    type: profile
+    title: Competências em destaque (Sobre)
+    path: profile/skills-highlight.md
+    locales: [pt-BR]
+
+  - id: skills
+    type: profile
+    title: Competências (lista completa)
+    path: profile/skills.md
+    locales: [pt-BR, en-US]
+
+  # --- experience ---
+  - id: trio
+    type: experience
+    company: Trio
+    title: Full-Stack Developer | Elixir | Phoenix | ClickHouse | TypeScript | JavaScript
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/trio/pt-br.md
+      en-US: experience/trio/en-us.md
+
+  - id: sh-squads
+    type: experience
+    company: SH Squads
+    title: Backend Developer | TypeScript | Express.js | JavaScript | Node.js
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/sh-squads/pt-br.md
+      en-US: experience/sh-squads/en-us.md
+
+  - id: contabilizei
+    type: experience
+    company: Contabilizei
+    title: Backend Developer | TypeScript | NestJS | Java | Kotlin | JavaScript | Node.js
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/contabilizei/pt-br.md
+      en-US: experience/contabilizei/en-us.md
+
+  - id: b2k
+    type: experience
+    company: b2k Technology Solutions
+    title: Mobile Developer | React Native
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/b2k/pt-br.md
+      en-US: experience/b2k/en-us.md
+
+  - id: spro-it-solutions
+    type: experience
+    company: SPRO IT Solutions
+    title: Software Developer ReactJs | React Native | NodeJs | JavaScript Developer
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/spro-it-solutions/pt-br.md
+      en-US: experience/spro-it-solutions/en-us.md
+
+  - id: ztrax
+    type: experience
+    company: ztrax
+    title: Software Developer
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/ztrax/pt-br.md
+      en-US: experience/ztrax/en-us.md
+
+  - id: mobilesys-sistemas
+    type: experience
+    company: MobileSys Sistemas
+    title: Software Developer
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: experience/mobilesys-sistemas/pt-br.md
+      en-US: experience/mobilesys-sistemas/en-us.md
+
+  # --- education ---
+  - id: uninter
+    type: education
+    institution: UNINTER Centro Universitário Internacional
+    title: Tecnólogo em Análise e Desenvolvimento de Sistemas
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: education/uninter/pt-br.md
+      en-US: education/uninter/en-us.md
+
+  - id: rocketseat
+    type: education
+    institution: Rocketseat
+    title: Bootcamp em Programação
+    locales: [pt-BR, en-US]
+    paths:
+      pt-BR: education/rocketseat/pt-br.md
+      en-US: education/rocketseat/en-us.md
+
+  # --- certification (PT + EN no mesmo arquivo) ---
+  - id: rocketseat-introducao-go
+    type: certification
+    path: certification/rocketseat-introducao-go.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-minicurso-java
+    type: certification
+    path: certification/rocketseat-minicurso-java.md
+    locales: [pt-BR, en-US]
+
+  - id: b7web-firebase
+    type: certification
+    path: certification/b7web-firebase.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-dowhile-2020
+    type: certification
+    path: certification/rocketseat-dowhile-2020.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-gostack
+    type: certification
+    path: certification/rocketseat-gostack.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-semana-omnistack-11
+    type: certification
+    path: certification/rocketseat-semana-omnistack-11.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-react-native
+    type: certification
+    path: certification/rocketseat-react-native.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-reactjs
+    type: certification
+    path: certification/rocketseat-reactjs.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-nodejs
+    type: certification
+    path: certification/rocketseat-nodejs.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-javascript-es6
+    type: certification
+    path: certification/rocketseat-javascript-es6.md
+    locales: [pt-BR, en-US]
+
+  - id: rocketseat-javascript
+    type: certification
+    path: certification/rocketseat-javascript.md
+    locales: [pt-BR, en-US]
+
+  - id: fundacao-bradesco-processo-desenvolvimento-software
+    type: certification
+    path: certification/fundacao-bradesco-processo-desenvolvimento-software.md
+    locales: [pt-BR, en-US]
+
+  - id: fundacao-bradesco-engenharia-requisitos
+    type: certification
+    path: certification/fundacao-bradesco-engenharia-requisitos.md
+    locales: [pt-BR, en-US]
+
+  - id: curso-em-video-php
+    type: certification
+    path: certification/curso-em-video-php.md
+    locales: [pt-BR, en-US]
+
+  - id: curso-em-video-html5
+    type: certification
+    path: certification/curso-em-video-html5.md
+    locales: [pt-BR, en-US]
+
+  - id: curso-em-video-mysql
+    type: certification
+    path: certification/curso-em-video-mysql.md
+    locales: [pt-BR, en-US]
+
+  # --- project ---
+  - id: go-happy
+    type: project
+    path: project/go-happy.md
+    locales: [pt-BR, en-US]
+
+  - id: be-the-hero
+    type: project
+    path: project/be-the-hero.md
+    locales: [pt-BR, en-US]
+
+  - id: go-barber
+    type: project
+    path: project/go-barber.md
+    locales: [pt-BR, en-US]
+
+indexes:
+  experience: experience/_index.md
+  education: education/_index.md
+  certification: certification/_index.md
+  project: project/_index.md
+  hub: INDEX.md
+  schema: schema/entities.md

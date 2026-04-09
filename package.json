@@ -1,0 +1,13 @@
+{
+  "name": "professional-profile-knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional profile knowledge base: Markdown + manifest.yaml under knowledge-base/, structured for search and future tooling.",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
