@@ -30,6 +30,13 @@ Corrigir com base na verdade contratual, histórico no LinkedIn ou repositórios
 | **Fastify**                          | No perfil LinkedIn a competência aparece como **`fastfy`** (typo).                                                         | Corrigir no LinkedIn se possível; no KB podes normalizar para **Fastify** com nota.                                   |
 | **Certificados Rocketseat “vazios”** | Vários `.md` em `certification/` ficaram sem URL/código no backup manual.                                                  | O `Certifications.csv` traz URLs (incl. `app.rocketseat.com.br`) e _license number_ — atualizar as tabelas nos `.md`. |
 
+## Arquivo `linkedin-export-2026-04-09.zip` no repositório
+
+- O export está **versionado** na raiz do projeto como ZIP **protegido por senha** (definida por ti).
+- Há **cópia adicional no Google Drive** — bom para recuperação fora do Git.
+- **Nunca** commits nem documentos no repo com a **senha** do ZIP; guarda-a só no gestor de senhas / nota segura no Drive.
+- Mesmo encriptado, o ficheiro no GitHub é **público** se o repositório for público; usa **senha forte** e aceita o risco residual de alguém tentar quebrar o arquivo.
+
 ## Dados sensíveis
 
 Não copiar para Markdown público no repositório sem decisão explícita:
@@ -38,7 +45,7 @@ Não copiar para Markdown público no repositório sem decisão explícita:
 - `messages.csv`, `Email Addresses.csv`, `PhoneNumbers.csv`, `Whatsapp Phone Numbers.csv`.
 - `Connections.csv`, `Invitations.csv`: dados de terceiros — usar só offline ou de forma agregada.
 
-O ZIP está listado no `.gitignore` (`linkedin-export-*.zip`) para evitar commit acidental de PII; se precisares de cópia versionada, extrai só ficheiros já sanitizados.
+Ao **extrair** o ZIP localmente, continua a preferir pasta temporária (`tmp/`) para não versionar CSV soltos com PII.
 
 ## Melhorias próximas (prioridade sugerida)
 
